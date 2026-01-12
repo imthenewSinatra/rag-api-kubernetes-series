@@ -17,7 +17,7 @@ Projeto desenvolvido em Curitiba, a "Europa brasileira".
 ## 🚀 Como rodar
 1. Instale o [Ollama](https://ollama.com/) e baixe o modelo: `ollama run llama3`.
 2. Instale as dependências: `pip install -r requirements.txt`.
-3. Rode a API: `uvicorn main:app --reload`.
+3. Rode a API: `uvicorn app:app --reload`.
 4. Acesse o Swagger em: `http://127.0.0.1:8000/docs`.
 
 ## 📈 Próximos Passos
